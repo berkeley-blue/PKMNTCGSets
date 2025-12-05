@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "lastUpdated": "2025-12-04",
+  "description": "European Pokémon TCG set mapping for PKMN Merchant",
+  "sets": [
+    {
+      "name": "Phantasmal Flames",
+      "tcgdexId": "me02",
+      "printedCode": "PFL",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2025-09-26"
+    },
+    {
+      "name": "Mega Evolution",
+      "tcgdexId": "me01",
+      "printedCode": "MEV",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2025-08-01"
+    },
+    {
+      "name": "Surging Sparks",
+      "tcgdexId": "sv08",
+      "printedCode": "SSP",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2024-11-08"
+    },
+    {
+      "name": "Stellar Crown",
+      "tcgdexId": "sv07",
+      "printedCode": "SCR",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2024-09-13"
+    },
+    {
+      "name": "Shrouded Fable",
+      "tcgdexId": "sv06.5",
+      "printedCode": "SFA",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2024-08-02"
+    },
+    {
+      "name": "Twilight Masquerade",
+      "tcgdexId": "sv06",
+      "printedCode": "TWM",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2024-05-24"
+    },
+    {
+      "name": "Temporal Forces",
+      "tcgdexId": "sv05",
+      "printedCode": "TEF",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2024-03-22"
+    },
+    {
+      "name": "Paldean Fates",
+      "tcgdexId": "sv04.5",
+      "printedCode": "PAF",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2024-01-26"
+    },
+    {
+      "name": "Paradox Rift",
+      "tcgdexId": "sv04",
+      "printedCode": "PAR",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2023-11-03"
+    },
+    {
+      "name": "151",
+      "tcgdexId": "sv03.5",
+      "printedCode": "MEW",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2023-09-22"
+    },
+    {
+      "name": "Obsidian Flames",
+      "tcgdexId": "sv03",
+      "printedCode": "OBF",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2023-08-11"
+    },
+    {
+      "name": "Paldea Evolved",
+      "tcgdexId": "sv02",
+      "printedCode": "PAL",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2023-06-09"
+    },
+    {
+      "name": "Scarlet & Violet",
+      "tcgdexId": "sv01",
+      "printedCode": "SVI",
+      "cardmarketExpansionId": null,
+      "releaseDate": "2023-03-31"
+    }
+  ]
+}
