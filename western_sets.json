@@ -1,98 +1,791 @@
 {
-  "version": 1,
-  "lastUpdated": "2025-12-04",
-  "description": "European Pokémon TCG set mapping for PKMN Merchant",
+  "version": 2,
+  "lastUpdated": "2025-12-05",
+  "description": "Western/European Pokemon TCG set mapping for PKMN Merchant",
   "sets": [
-    {
-      "name": "Phantasmal Flames",
-      "tcgdexId": "me02",
-      "printedCode": "PFL",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2025-09-26"
-    },
     {
       "name": "Mega Evolution",
       "tcgdexId": "me01",
       "printedCode": "MEV",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2025-08-01"
+      "cardmarketExpansionId": 6209,
+      "releaseDate": null
     },
     {
-      "name": "Surging Sparks",
-      "tcgdexId": "sv08",
-      "printedCode": "SSP",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2024-11-08"
-    },
-    {
-      "name": "Stellar Crown",
-      "tcgdexId": "sv07",
-      "printedCode": "SCR",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2024-09-13"
-    },
-    {
-      "name": "Shrouded Fable",
-      "tcgdexId": "sv06.5",
-      "printedCode": "SFA",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2024-08-02"
-    },
-    {
-      "name": "Twilight Masquerade",
-      "tcgdexId": "sv06",
-      "printedCode": "TWM",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2024-05-24"
-    },
-    {
-      "name": "Temporal Forces",
-      "tcgdexId": "sv05",
-      "printedCode": "TEF",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2024-03-22"
-    },
-    {
-      "name": "Paldean Fates",
-      "tcgdexId": "sv04.5",
-      "printedCode": "PAF",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2024-01-26"
-    },
-    {
-      "name": "Paradox Rift",
-      "tcgdexId": "sv04",
-      "printedCode": "PAR",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2023-11-03"
-    },
-    {
-      "name": "151",
-      "tcgdexId": "sv03.5",
-      "printedCode": "MEW",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2023-09-22"
-    },
-    {
-      "name": "Obsidian Flames",
-      "tcgdexId": "sv03",
-      "printedCode": "OBF",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2023-08-11"
-    },
-    {
-      "name": "Paldea Evolved",
-      "tcgdexId": "sv02",
-      "printedCode": "PAL",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2023-06-09"
+      "name": "Phantasmal Flames",
+      "tcgdexId": "me02",
+      "printedCode": "PFL",
+      "cardmarketExpansionId": 6299,
+      "releaseDate": null
     },
     {
       "name": "Scarlet & Violet",
       "tcgdexId": "sv01",
       "printedCode": "SVI",
-      "cardmarketExpansionId": null,
-      "releaseDate": "2023-03-31"
+      "cardmarketExpansionId": 5223,
+      "releaseDate": null
+    },
+    {
+      "name": "Paldea Evolved",
+      "tcgdexId": "sv02",
+      "printedCode": "PAL",
+      "cardmarketExpansionId": 5318,
+      "releaseDate": null
+    },
+    {
+      "name": "Obsidian Flames",
+      "tcgdexId": "sv03",
+      "printedCode": "OBF",
+      "cardmarketExpansionId": 5385,
+      "releaseDate": null
+    },
+    {
+      "name": "151",
+      "tcgdexId": "sv03.5",
+      "printedCode": "MEW",
+      "cardmarketExpansionId": 5402,
+      "releaseDate": null
+    },
+    {
+      "name": "Paradox Rift",
+      "tcgdexId": "sv04",
+      "printedCode": "PAR",
+      "cardmarketExpansionId": 5444,
+      "releaseDate": null
+    },
+    {
+      "name": "Paldean Fates",
+      "tcgdexId": "sv04.5",
+      "printedCode": "PAF",
+      "cardmarketExpansionId": 5546,
+      "releaseDate": null
+    },
+    {
+      "name": "Temporal Forces",
+      "tcgdexId": "sv05",
+      "printedCode": "TEF",
+      "cardmarketExpansionId": 5589,
+      "releaseDate": null
+    },
+    {
+      "name": "Twilight Masquerade",
+      "tcgdexId": "sv06",
+      "printedCode": "TWM",
+      "cardmarketExpansionId": 5691,
+      "releaseDate": null
+    },
+    {
+      "name": "Shrouded Fable",
+      "tcgdexId": "sv06.5",
+      "printedCode": "SFA",
+      "cardmarketExpansionId": 5760,
+      "releaseDate": null
+    },
+    {
+      "name": "Stellar Crown",
+      "tcgdexId": "sv07",
+      "printedCode": "SCR",
+      "cardmarketExpansionId": 5802,
+      "releaseDate": null
+    },
+    {
+      "name": "Surging Sparks",
+      "tcgdexId": "sv08",
+      "printedCode": "SSP",
+      "cardmarketExpansionId": 5879,
+      "releaseDate": null
+    },
+    {
+      "name": "Prismatic Evolutions",
+      "tcgdexId": "sv08.5",
+      "printedCode": "PRE",
+      "cardmarketExpansionId": 5944,
+      "releaseDate": null
+    },
+    {
+      "name": "Journey Together",
+      "tcgdexId": "sv09",
+      "printedCode": "JTG",
+      "cardmarketExpansionId": 6006,
+      "releaseDate": null
+    },
+    {
+      "name": "Destined Rivals",
+      "tcgdexId": "sv09.5",
+      "printedCode": "DRI",
+      "cardmarketExpansionId": 6096,
+      "releaseDate": null
+    },
+    {
+      "name": "SV Black Star Promos",
+      "tcgdexId": "svp",
+      "printedCode": "SVP",
+      "cardmarketExpansionId": 5241,
+      "releaseDate": null
+    },
+    {
+      "name": "Sword & Shield",
+      "tcgdexId": "swsh01",
+      "printedCode": "SSH",
+      "cardmarketExpansionId": 2921,
+      "releaseDate": null
+    },
+    {
+      "name": "Rebel Clash",
+      "tcgdexId": "swsh02",
+      "printedCode": "RCL",
+      "cardmarketExpansionId": 3143,
+      "releaseDate": null
+    },
+    {
+      "name": "Darkness Ablaze",
+      "tcgdexId": "swsh03",
+      "printedCode": "DAA",
+      "cardmarketExpansionId": 3199,
+      "releaseDate": null
+    },
+    {
+      "name": "Vivid Voltage",
+      "tcgdexId": "swsh04",
+      "printedCode": "VIV",
+      "cardmarketExpansionId": 3484,
+      "releaseDate": null
+    },
+    {
+      "name": "Shining Fates",
+      "tcgdexId": "swsh04.5",
+      "printedCode": "SHF",
+      "cardmarketExpansionId": 3630,
+      "releaseDate": null
+    },
+    {
+      "name": "Battle Styles",
+      "tcgdexId": "swsh05",
+      "printedCode": "BST",
+      "cardmarketExpansionId": 3675,
+      "releaseDate": null
+    },
+    {
+      "name": "Chilling Reign",
+      "tcgdexId": "swsh06",
+      "printedCode": "CRE",
+      "cardmarketExpansionId": 4174,
+      "releaseDate": null
+    },
+    {
+      "name": "Evolving Skies",
+      "tcgdexId": "swsh07",
+      "printedCode": "EVS",
+      "cardmarketExpansionId": 4328,
+      "releaseDate": null
+    },
+    {
+      "name": "Celebrations",
+      "tcgdexId": "swsh07.5",
+      "printedCode": "CEL",
+      "cardmarketExpansionId": 4347,
+      "releaseDate": null
+    },
+    {
+      "name": "Fusion Strike",
+      "tcgdexId": "swsh08",
+      "printedCode": "FST",
+      "cardmarketExpansionId": 4382,
+      "releaseDate": null
+    },
+    {
+      "name": "Brilliant Stars",
+      "tcgdexId": "swsh09",
+      "printedCode": "BRS",
+      "cardmarketExpansionId": 4434,
+      "releaseDate": null
+    },
+    {
+      "name": "Astral Radiance",
+      "tcgdexId": "swsh10",
+      "printedCode": "ASR",
+      "cardmarketExpansionId": 4979,
+      "releaseDate": null
+    },
+    {
+      "name": "Lost Origin",
+      "tcgdexId": "swsh11",
+      "printedCode": "LOR",
+      "cardmarketExpansionId": 5093,
+      "releaseDate": null
+    },
+    {
+      "name": "Silver Tempest",
+      "tcgdexId": "swsh12",
+      "printedCode": "SIT",
+      "cardmarketExpansionId": 5142,
+      "releaseDate": null
+    },
+    {
+      "name": "Crown Zenith",
+      "tcgdexId": "swsh12.5",
+      "printedCode": "CRZ",
+      "cardmarketExpansionId": 5201,
+      "releaseDate": null
+    },
+    {
+      "name": "SWSH Black Star Promos",
+      "tcgdexId": "swshp",
+      "printedCode": "SWSHP",
+      "cardmarketExpansionId": 2916,
+      "releaseDate": null
+    },
+    {
+      "name": "Sun & Moon",
+      "tcgdexId": "sm1",
+      "printedCode": "SUM",
+      "cardmarketExpansionId": 1745,
+      "releaseDate": null
+    },
+    {
+      "name": "Unbroken Bonds",
+      "tcgdexId": "sm10",
+      "printedCode": "UNB",
+      "cardmarketExpansionId": 2437,
+      "releaseDate": null
+    },
+    {
+      "name": "Unified Minds",
+      "tcgdexId": "sm11",
+      "printedCode": "UNM",
+      "cardmarketExpansionId": 2487,
+      "releaseDate": null
+    },
+    {
+      "name": "Hidden Fates",
+      "tcgdexId": "sm11.5",
+      "printedCode": "HIF",
+      "cardmarketExpansionId": 2514,
+      "releaseDate": null
+    },
+    {
+      "name": "Cosmic Eclipse",
+      "tcgdexId": "sm12",
+      "printedCode": "CEC",
+      "cardmarketExpansionId": 2644,
+      "releaseDate": null
+    },
+    {
+      "name": "Guardians Rising",
+      "tcgdexId": "sm2",
+      "printedCode": "GRI",
+      "cardmarketExpansionId": 1800,
+      "releaseDate": null
+    },
+    {
+      "name": "Burning Shadows",
+      "tcgdexId": "sm3",
+      "printedCode": "BUS",
+      "cardmarketExpansionId": 1824,
+      "releaseDate": null
+    },
+    {
+      "name": "Shining Legends",
+      "tcgdexId": "sm3.5",
+      "printedCode": "SLG",
+      "cardmarketExpansionId": 1842,
+      "releaseDate": null
+    },
+    {
+      "name": "Crimson Invasion",
+      "tcgdexId": "sm4",
+      "printedCode": "CIN",
+      "cardmarketExpansionId": 1843,
+      "releaseDate": null
+    },
+    {
+      "name": "Ultra Prism",
+      "tcgdexId": "sm5",
+      "printedCode": "UPR",
+      "cardmarketExpansionId": 2065,
+      "releaseDate": null
+    },
+    {
+      "name": "Forbidden Light",
+      "tcgdexId": "sm6",
+      "printedCode": "FLI",
+      "cardmarketExpansionId": 2075,
+      "releaseDate": null
+    },
+    {
+      "name": "Celestial Storm",
+      "tcgdexId": "sm7",
+      "printedCode": "CES",
+      "cardmarketExpansionId": 2320,
+      "releaseDate": null
+    },
+    {
+      "name": "Dragon Majesty",
+      "tcgdexId": "sm7.5",
+      "printedCode": "DRM",
+      "cardmarketExpansionId": 2351,
+      "releaseDate": null
+    },
+    {
+      "name": "Lost Thunder",
+      "tcgdexId": "sm8",
+      "printedCode": "LOT",
+      "cardmarketExpansionId": 2370,
+      "releaseDate": null
+    },
+    {
+      "name": "Team Up",
+      "tcgdexId": "sm9",
+      "printedCode": "TEU",
+      "cardmarketExpansionId": 2407,
+      "releaseDate": null
+    },
+    {
+      "name": "SM Black Star Promos",
+      "tcgdexId": "smp",
+      "printedCode": "SMP",
+      "cardmarketExpansionId": 1757,
+      "releaseDate": null
+    },
+    {
+      "name": "Double Crisis",
+      "tcgdexId": "dc1",
+      "printedCode": "DCR",
+      "cardmarketExpansionId": 1648,
+      "releaseDate": null
+    },
+    {
+      "name": "Generations",
+      "tcgdexId": "g1",
+      "printedCode": "GEN",
+      "cardmarketExpansionId": 1693,
+      "releaseDate": null
+    },
+    {
+      "name": "XY",
+      "tcgdexId": "xy1",
+      "printedCode": "XY",
+      "cardmarketExpansionId": 1582,
+      "releaseDate": null
+    },
+    {
+      "name": "Fates Collide",
+      "tcgdexId": "xy10",
+      "printedCode": "FCO",
+      "cardmarketExpansionId": 1706,
+      "releaseDate": null
+    },
+    {
+      "name": "Steam Siege",
+      "tcgdexId": "xy11",
+      "printedCode": "STS",
+      "cardmarketExpansionId": 1716,
+      "releaseDate": null
+    },
+    {
+      "name": "Evolutions",
+      "tcgdexId": "xy12",
+      "printedCode": "EVO",
+      "cardmarketExpansionId": 1742,
+      "releaseDate": null
+    },
+    {
+      "name": "Flashfire",
+      "tcgdexId": "xy2",
+      "printedCode": "FLF",
+      "cardmarketExpansionId": 1583,
+      "releaseDate": null
+    },
+    {
+      "name": "Furious Fists",
+      "tcgdexId": "xy3",
+      "printedCode": "FFI",
+      "cardmarketExpansionId": 1584,
+      "releaseDate": null
+    },
+    {
+      "name": "Phantom Forces",
+      "tcgdexId": "xy4",
+      "printedCode": "PHF",
+      "cardmarketExpansionId": 1521,
+      "releaseDate": null
+    },
+    {
+      "name": "Primal Clash",
+      "tcgdexId": "xy5",
+      "printedCode": "PRC",
+      "cardmarketExpansionId": 1585,
+      "releaseDate": null
+    },
+    {
+      "name": "Roaring Skies",
+      "tcgdexId": "xy6",
+      "printedCode": "ROS",
+      "cardmarketExpansionId": 1649,
+      "releaseDate": null
+    },
+    {
+      "name": "Ancient Origins",
+      "tcgdexId": "xy7",
+      "printedCode": "AOR",
+      "cardmarketExpansionId": 1660,
+      "releaseDate": null
+    },
+    {
+      "name": "BREAKthrough",
+      "tcgdexId": "xy8",
+      "printedCode": "BKT",
+      "cardmarketExpansionId": 1678,
+      "releaseDate": null
+    },
+    {
+      "name": "BREAKpoint",
+      "tcgdexId": "xy9",
+      "printedCode": "BKP",
+      "cardmarketExpansionId": 1687,
+      "releaseDate": null
+    },
+    {
+      "name": "XY Black Star Promos",
+      "tcgdexId": "xyp",
+      "printedCode": "XYP",
+      "cardmarketExpansionId": 1612,
+      "releaseDate": null
+    },
+    {
+      "name": "Black & White",
+      "tcgdexId": "bw1",
+      "printedCode": "BLW",
+      "cardmarketExpansionId": 1571,
+      "releaseDate": null
+    },
+    {
+      "name": "Plasma Blast",
+      "tcgdexId": "bw10",
+      "printedCode": "PLB",
+      "cardmarketExpansionId": 1580,
+      "releaseDate": null
+    },
+    {
+      "name": "Legendary Treasures",
+      "tcgdexId": "bw11",
+      "printedCode": "LTR",
+      "cardmarketExpansionId": 1581,
+      "releaseDate": null
+    },
+    {
+      "name": "Emerging Powers",
+      "tcgdexId": "bw2",
+      "printedCode": "EPO",
+      "cardmarketExpansionId": 1572,
+      "releaseDate": null
+    },
+    {
+      "name": "Noble Victories",
+      "tcgdexId": "bw3",
+      "printedCode": "NVI",
+      "cardmarketExpansionId": 1573,
+      "releaseDate": null
+    },
+    {
+      "name": "Next Destinies",
+      "tcgdexId": "bw4",
+      "printedCode": "NXD",
+      "cardmarketExpansionId": 1574,
+      "releaseDate": null
+    },
+    {
+      "name": "Dark Explorers",
+      "tcgdexId": "bw5",
+      "printedCode": "DEX",
+      "cardmarketExpansionId": 1575,
+      "releaseDate": null
+    },
+    {
+      "name": "Dragons Exalted",
+      "tcgdexId": "bw6",
+      "printedCode": "DRX",
+      "cardmarketExpansionId": 1576,
+      "releaseDate": null
+    },
+    {
+      "name": "Boundaries Crossed",
+      "tcgdexId": "bw7",
+      "printedCode": "BCR",
+      "cardmarketExpansionId": 1577,
+      "releaseDate": null
+    },
+    {
+      "name": "Plasma Storm",
+      "tcgdexId": "bw8",
+      "printedCode": "PLS",
+      "cardmarketExpansionId": 1578,
+      "releaseDate": null
+    },
+    {
+      "name": "Plasma Freeze",
+      "tcgdexId": "bw9",
+      "printedCode": "PLF",
+      "cardmarketExpansionId": 1579,
+      "releaseDate": null
+    },
+    {
+      "name": "BW Black Star Promos",
+      "tcgdexId": "bwp",
+      "printedCode": "BWP",
+      "cardmarketExpansionId": 1611,
+      "releaseDate": null
+    },
+    {
+      "name": "Call of Legends",
+      "tcgdexId": "col1",
+      "printedCode": "CL",
+      "cardmarketExpansionId": 1570,
+      "releaseDate": null
+    },
+    {
+      "name": "HeartGold & SoulSilver",
+      "tcgdexId": "hgss1",
+      "printedCode": "HS",
+      "cardmarketExpansionId": 1566,
+      "releaseDate": null
+    },
+    {
+      "name": "Unleashed",
+      "tcgdexId": "hgss2",
+      "printedCode": "UL",
+      "cardmarketExpansionId": 1567,
+      "releaseDate": null
+    },
+    {
+      "name": "Undaunted",
+      "tcgdexId": "hgss3",
+      "printedCode": "UD",
+      "cardmarketExpansionId": 1568,
+      "releaseDate": null
+    },
+    {
+      "name": "Triumphant",
+      "tcgdexId": "hgss4",
+      "printedCode": "TM",
+      "cardmarketExpansionId": 1569,
+      "releaseDate": null
+    },
+    {
+      "name": "HGSS Black Star Promos",
+      "tcgdexId": "hsp",
+      "printedCode": "HGSS",
+      "cardmarketExpansionId": 1610,
+      "releaseDate": null
+    },
+    {
+      "name": "Platinum",
+      "tcgdexId": "pl1",
+      "printedCode": "PL",
+      "cardmarketExpansionId": 1562,
+      "releaseDate": null
+    },
+    {
+      "name": "Rising Rivals",
+      "tcgdexId": "pl2",
+      "printedCode": "RR",
+      "cardmarketExpansionId": 1563,
+      "releaseDate": null
+    },
+    {
+      "name": "Supreme Victors",
+      "tcgdexId": "pl3",
+      "printedCode": "SV",
+      "cardmarketExpansionId": 1564,
+      "releaseDate": null
+    },
+    {
+      "name": "Arceus",
+      "tcgdexId": "pl4",
+      "printedCode": "AR",
+      "cardmarketExpansionId": 1565,
+      "releaseDate": null
+    },
+    {
+      "name": "Diamond & Pearl",
+      "tcgdexId": "dp1",
+      "printedCode": "DP",
+      "cardmarketExpansionId": 1555,
+      "releaseDate": null
+    },
+    {
+      "name": "Mysterious Treasures",
+      "tcgdexId": "dp2",
+      "printedCode": "MT",
+      "cardmarketExpansionId": 1556,
+      "releaseDate": null
+    },
+    {
+      "name": "Secret Wonders",
+      "tcgdexId": "dp3",
+      "printedCode": "SW",
+      "cardmarketExpansionId": 1557,
+      "releaseDate": null
+    },
+    {
+      "name": "Great Encounters",
+      "tcgdexId": "dp4",
+      "printedCode": "GE",
+      "cardmarketExpansionId": 1558,
+      "releaseDate": null
+    },
+    {
+      "name": "Majestic Dawn",
+      "tcgdexId": "dp5",
+      "printedCode": "MD",
+      "cardmarketExpansionId": 1559,
+      "releaseDate": null
+    },
+    {
+      "name": "Legends Awakened",
+      "tcgdexId": "dp6",
+      "printedCode": "LA",
+      "cardmarketExpansionId": 1560,
+      "releaseDate": null
+    },
+    {
+      "name": "Stormfront",
+      "tcgdexId": "dp7",
+      "printedCode": "SF",
+      "cardmarketExpansionId": 1561,
+      "releaseDate": null
+    },
+    {
+      "name": "DP Black Star Promos",
+      "tcgdexId": "dpp",
+      "printedCode": "DPP",
+      "cardmarketExpansionId": 1609,
+      "releaseDate": null
+    },
+    {
+      "name": "Expedition Base Set",
+      "tcgdexId": "ecard1",
+      "printedCode": "EXP",
+      "cardmarketExpansionId": 1536,
+      "releaseDate": null
+    },
+    {
+      "name": "Aquapolis",
+      "tcgdexId": "ecard2",
+      "printedCode": "AQ",
+      "cardmarketExpansionId": 1537,
+      "releaseDate": null
+    },
+    {
+      "name": "Skyridge",
+      "tcgdexId": "ecard3",
+      "printedCode": "SK",
+      "cardmarketExpansionId": 1538,
+      "releaseDate": null
+    },
+    {
+      "name": "Neo Genesis",
+      "tcgdexId": "neo1",
+      "printedCode": "N1",
+      "cardmarketExpansionId": 1531,
+      "releaseDate": null
+    },
+    {
+      "name": "Neo Discovery",
+      "tcgdexId": "neo2",
+      "printedCode": "N2",
+      "cardmarketExpansionId": 1532,
+      "releaseDate": null
+    },
+    {
+      "name": "Neo Revelation",
+      "tcgdexId": "neo3",
+      "printedCode": "N3",
+      "cardmarketExpansionId": 1533,
+      "releaseDate": null
+    },
+    {
+      "name": "Neo Destiny",
+      "tcgdexId": "neo4",
+      "printedCode": "N4",
+      "cardmarketExpansionId": 1534,
+      "releaseDate": null
+    },
+    {
+      "name": "Gym Heroes",
+      "tcgdexId": "gym1",
+      "printedCode": "G1",
+      "cardmarketExpansionId": 1529,
+      "releaseDate": null
+    },
+    {
+      "name": "Gym Challenge",
+      "tcgdexId": "gym2",
+      "printedCode": "G2",
+      "cardmarketExpansionId": 1530,
+      "releaseDate": null
+    },
+    {
+      "name": "Base Set",
+      "tcgdexId": "base1",
+      "printedCode": "BS",
+      "cardmarketExpansionId": 1523,
+      "releaseDate": null
+    },
+    {
+      "name": "Base Set 2",
+      "tcgdexId": "base2",
+      "printedCode": "B2",
+      "cardmarketExpansionId": 1527,
+      "releaseDate": null
+    },
+    {
+      "name": "Wizards Black Star Promos",
+      "tcgdexId": "basep",
+      "printedCode": "WP",
+      "cardmarketExpansionId": 1607,
+      "releaseDate": null
+    },
+    {
+      "name": "Detective Pikachu",
+      "tcgdexId": "det1",
+      "printedCode": "DET",
+      "cardmarketExpansionId": 2438,
+      "releaseDate": null
+    },
+    {
+      "name": "Fossil",
+      "tcgdexId": "fossil",
+      "printedCode": "FO",
+      "cardmarketExpansionId": 1526,
+      "releaseDate": null
+    },
+    {
+      "name": "Jungle",
+      "tcgdexId": "jungle",
+      "printedCode": "JU",
+      "cardmarketExpansionId": 1525,
+      "releaseDate": null
+    },
+    {
+      "name": "Legendary Collection",
+      "tcgdexId": "lc",
+      "printedCode": "LC",
+      "cardmarketExpansionId": 1535,
+      "releaseDate": null
+    },
+    {
+      "name": "Team Rocket",
+      "tcgdexId": "rocket",
+      "printedCode": "TR",
+      "cardmarketExpansionId": 1528,
+      "releaseDate": null
+    },
+    {
+      "name": "Southern Islands",
+      "tcgdexId": "si1",
+      "printedCode": "SI",
+      "cardmarketExpansionId": 1633,
+      "releaseDate": null
     }
   ]
 }
